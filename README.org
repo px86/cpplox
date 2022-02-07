@@ -2,4 +2,6 @@
 #+AUTHOR: Pushkar Raj
 #+DATE: [2022-01-29 Sat]
 
-Implementation of the =lox= programming language from the [[https://craftinginterpreters.com][craftinginterpreters.com]], in C++.
+Implementation of the =lox= programming language from [[https://craftinginterpreters.com][craftinginterpreters.com]], in C++.
+
+NOTE: project is under development
