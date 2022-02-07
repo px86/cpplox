@@ -121,7 +121,8 @@ auto Lexer::lex() -> std::vector<Token>& {
 
     case '/':
       { // SLASH or comment
-	if (peek(1) == '/') consume(2);
+	if (peek(1) == '/')
+	  for (char t=peek(); t && t!='\n'; t=peek()) consume();
 	else emit_token(TokenType::SLASH);
       } break;
     case '!':
